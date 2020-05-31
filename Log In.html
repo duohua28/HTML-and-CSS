@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contest="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="Log In.css">
+</head>
+<body>
+    <div id="LogIn-box">
+        <h1>Login</h1>
+        <div class="form">
+            <div class="item">
+                <i></i>
+                <input type="text" placeholder="username">
+            </div>
+            <div class="item">
+                <i></i>
+                <input type="text" placeholder="password">
+            </div>
+        </div>
+        <button onclick="onClick(this)">Login</button>
+        <script>
+            function onClick(data){
+                var cube = document.getElementById("LogIn-box");
+                cube.style.display = "none";
+            }
+        </script>
+    </div>
+</body>
